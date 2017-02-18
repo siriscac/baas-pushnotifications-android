@@ -1,0 +1,6 @@
+1) Install android studio
+2) Install all deps
+3) Make sure you install google repository rev.38
+4) Sync project
+5) Replace google-services.json from your firebase console, then replace baas creds, notifiers in NotificationFirebaseInstanceIDService.java
+Note: Notifications won't work on emulator it needs google services, try it out on a device rather
